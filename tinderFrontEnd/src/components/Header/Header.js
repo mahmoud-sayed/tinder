@@ -10,7 +10,7 @@ const Header = () => {
       <IconButton>
         <PersonIcon fontSize='large' className='header__icon' />
       </IconButton>
-      <img src='../assets/pngwing.com.png' className='header__logo' alt="tinder logo" />
+      <img src='https://i.postimg.cc/fWqfYXqC/pngwing-com.png' className='header__logo' alt="tinder logo" />
 
       <IconButton>
         <ForumIcon fontSize='large' className='header__icon' />

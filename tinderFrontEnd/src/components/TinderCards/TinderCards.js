@@ -7,7 +7,7 @@ import './style.scss';
 const TinderCards = () => {
   const [cardContent, setCardContent] = useState([]);
 
-  const url = 'http://localhost:8001/tinder/cards';
+  const url = 'https://tinder-as-portfolio.herokuapp.com/tinder/cards';
 
   useEffect(() => {
     async function fetchData() {
